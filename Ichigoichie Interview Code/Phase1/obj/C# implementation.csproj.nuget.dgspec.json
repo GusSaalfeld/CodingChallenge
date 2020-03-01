@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase1\\C# implementation.csproj": {}
+  },
+  "projects": {
+    "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase1\\C# implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase1\\C# implementation.csproj",
+        "projectName": "C# implementation",
+        "projectPath": "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase1\\C# implementation.csproj",
+        "packagesPath": "C:\\Users\\Gustowski\\.nuget\\packages\\",
+        "outputPath": "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gustowski\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

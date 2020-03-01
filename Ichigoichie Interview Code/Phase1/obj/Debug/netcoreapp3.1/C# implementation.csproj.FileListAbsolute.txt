@@ -1,0 +1,44 @@
+D:\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.exe
+D:\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.deps.json
+D:\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.json
+D:\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.dev.json
+D:\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.dll
+D:\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.pdb
+D:\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.csprojAssemblyReference.cache
+D:\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfoInputs.cache
+D:\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfo.cs
+D:\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.dll
+D:\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.pdb
+D:\Take3\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.exe
+D:\Take3\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.deps.json
+D:\Take3\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.json
+D:\Take3\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.dev.json
+D:\Take3\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.dll
+D:\Take3\Ichigoichie Interview Code\C# implementation\bin\Debug\netcoreapp3.1\C# implementation.pdb
+D:\Take3\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.csprojAssemblyReference.cache
+D:\Take3\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfoInputs.cache
+D:\Take3\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfo.cs
+D:\Take3\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.dll
+D:\Take3\Ichigoichie Interview Code\C# implementation\obj\Debug\netcoreapp3.1\C# implementation.pdb
+D:\Take3\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.exe
+D:\Take3\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.deps.json
+D:\Take3\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.json
+D:\Take3\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.dev.json
+D:\Take3\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.dll
+D:\Take3\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.pdb
+D:\Take3\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.csprojAssemblyReference.cache
+D:\Take3\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfoInputs.cache
+D:\Take3\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfo.cs
+D:\Take3\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.dll
+D:\Take3\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.pdb
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.exe
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.deps.json
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.json
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.runtimeconfig.dev.json
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.dll
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\bin\Debug\netcoreapp3.1\C# implementation.pdb
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.csprojAssemblyReference.cache
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfoInputs.cache
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.AssemblyInfo.cs
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.dll
+D:\Take3\Test\Ichigoichie Interview Code\Phase1\obj\Debug\netcoreapp3.1\C# implementation.pdb
