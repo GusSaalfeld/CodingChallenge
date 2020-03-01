@@ -51,60 +51,40 @@ namespace StateMachine
         /// <summary> Changes Mode from NotStarted to Main Gameplay </summary>
         /// <exception cref="InvalidStateTransitionException"> Thrown if currMode != NotStarted </exception>
         public void StartGameplay() {
-            //Check if transition is valid
-            if(currMode != Mode.NotStarted)
-                throw new InvalidStateTransitionException("Finish Game", Enum.GetName(typeof(Mode), currMode));
-
             //Transition
-            currMode = Mode.MainGameplay;
+            ChangeState(Mode.NotStarted, Mode.MainGameplay, "Start Gameplay");
             Console.WriteLine("Starting Gameplay");
         }
 
         /// <summary> Changes Mode from MainGameplay to PreparingNewSection </summary>
         /// <exception cref="InvalidStateTransitionException"> Thrown if currMode != MainGameplay </exception>
         public void PrepareNewSection() {
-            //Check if transition is valid
-            if(currMode != Mode.MainGameplay)
-                throw new InvalidStateTransitionException("Prepare new section", Enum.GetName(typeof(Mode), currMode));
-
             //Transition
-            currMode = Mode.PreparingNextSection;
+            ChangeState(Mode.MainGameplay, Mode.PreparingNextSection, "Preparing new section");
             Console.WriteLine("Preparing new section");
         }
 
         /// <summary> Changes Mode from MainGameplay to ComboMode </summary>
         /// <exception cref="InvalidStateTransitionException"> Thrown if currMode != MainGameplay </exception>
         public void EnterComboMode() {
-            //Check if transition is valid
-            if(currMode != Mode.MainGameplay)
-                throw new InvalidStateTransitionException("Entering Combo Mode", Enum.GetName(typeof(Mode), currMode));
-
             //Transition
-            currMode = Mode.ComboMode;
+            ChangeState(Mode.MainGameplay, Mode.ComboMode, "Entering Combo-Mode");
             Console.WriteLine("Entering Combo-Mode");
         }
 
         /// <summary> Changes Mode from ComboMode to MainGameplay </summary>
         /// <exception cref="InvalidStateTransitionException"> Thrown if currMode != ComboMode </exception>
         public void ExitComboMode() {
-            //Check if transition is valid
-            if(currMode != Mode.ComboMode)
-                throw new InvalidStateTransitionException("Exiting Combo Mode", Enum.GetName(typeof(Mode), currMode));
-
             //Transition
-            currMode = Mode.MainGameplay;
+            ChangeState(Mode.ComboMode, Mode.MainGameplay, "Exit Combo-Mode");
             Console.WriteLine("Exiting Combo Mode");
         }
 
         /// <summary> Changes Mode from PreparingNextSection to Minigame </summary>
         /// <exception cref="InvalidStateTransitionException"> Thrown if currMode != PreparingNextSection </exception>
         public void StartMinigame() {
-            //Check if transition is valid
-            if(currMode != Mode.PreparingNextSection)
-                throw new InvalidStateTransitionException("Finish Game", Enum.GetName(typeof(Mode), currMode));
-
             //Transition
-            currMode = Mode.Minigame;
+            ChangeState(Mode.PreparingNextSection, Mode.Minigame, "Start Minigame");
             Console.WriteLine("Starting Minigame");
         }
 
@@ -113,33 +93,38 @@ namespace StateMachine
         /// Thrown if currMode != NotStarted OR if GameState.IsAtLastSection() 
         /// </exception>
         public void StartNextSection() {
-            //Check if transition is valid
-            if(currMode != Mode.Minigame)
-                throw new InvalidStateTransitionException("Starting Next Section", Enum.GetName(typeof(Mode), currMode));
             if(IsAtLastSection())
                 throw new InvalidStateTransitionException("Starting Next Section", currSection, sectionCount);
 
             //Transition
             currSection++;
-            currMode = Mode.MainGameplay;
+            ChangeState(Mode.Minigame , Mode.MainGameplay , "Starting Next Section");
             Console.WriteLine("Starting next section");
         }
 
         /// <summary> Changes Mode from MiniGame to GameFinished </summary>
         /// <exception cref="InvalidStateTransitionException"> 
-        /// Thrown if currMode != MiniGame OR if !GameState.IsAtLastSection() 
+        /// Thrown if !GameState.IsAtLastSection() OR currMode != Minigame
         /// </exception>
         public void FinishGame() {
-            //Check if transition is valid
-            if(currMode != Mode.Minigame)
-                throw new InvalidStateTransitionException("Finish Game", Enum.GetName(typeof(Mode), currMode));
             if(!IsAtLastSection())
                 throw new InvalidStateTransitionException("Finish Game", currSection, sectionCount);
             
             //Transition
-            currMode = Mode.GameFinished;
+            ChangeState(Mode.Minigame, Mode.GameFinished, "Finish Game");
             currSection = 0;
             Console.WriteLine("Finishing game");
+        }
+
+        /// <summary> Changes currMode from to newState if currMode == validCurrState </summary>
+        /// <param name="validCurrMode"> (Mode) The validCurrentMode to be able to successfully transition. </param>
+        /// <param name="newMode"> (Mode) The new mode to transition to. </param>
+        /// <param name="transitionName"> (string) the name of the transition. </param>
+        /// <exception cref="InvalidStateTransitionException"> thrown if currMode != validCurrState </exception>
+        private void ChangeState(Mode validCurrMode, Mode newMode, string transitionName) {
+            if(currMode != validCurrMode)
+                throw new InvalidStateTransitionException(transitionName, Enum.GetName(typeof(Mode), currMode));
+            currMode = newMode;
         }
     }
 }
