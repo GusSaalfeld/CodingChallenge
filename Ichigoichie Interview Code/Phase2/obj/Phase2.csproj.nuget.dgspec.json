@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustowski\\Downloads\\CodingChallenge-master\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj": {}
+    "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustowski\\Downloads\\CodingChallenge-master\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj": {
+    "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustowski\\Downloads\\CodingChallenge-master\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj",
+        "projectUniqueName": "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj",
         "projectName": "Phase2",
-        "projectPath": "C:\\Users\\Gustowski\\Downloads\\CodingChallenge-master\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj",
+        "projectPath": "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase2\\Phase2.csproj",
         "packagesPath": "C:\\Users\\Gustowski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustowski\\Downloads\\CodingChallenge-master\\Ichigoichie Interview Code\\Phase2\\obj\\",
+        "outputPath": "D:\\Take3\\Test\\Ichigoichie Interview Code\\Phase2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustowski\\AppData\\Roaming\\NuGet\\NuGet.Config"
